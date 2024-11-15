@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Section: This section contains the header content, including the logo, navigation menu, and hamburger icon. -->
+    <div class="header">
+        <header class="header-content box-shadow">
+            <!-- 
+                Checkbox for Mobile Navigation: This checkbox is used to toggle the navigation menu on mobile devices.
+            -->
+            <input type="checkbox" id="check" unchecked>
+
+            <!-- 
+                Logo Section: This section contains the logo and brand name.
+            -->
+            <div class="logo">
+                <img class="logo-icon" src="./mcdonalds-Photoroom.png-Photoroom.png" alt="logo">
+                <span class="logo-text">Manjeet</span>
+            </div>
+
+            <!-- 
+                Navigation Menu: This section contains the navigation menu links.
+            -->
+            <nav class="nav">
+                <!-- 
+                    Close Button for Mobile Navigation: This button is used to close the navigation menu on mobile devices.
+                -->
+                <label for="check" class="button cancel"><i class="fa-solid fa-xmark"></i></label>
+                <a href="#Home" class="nav-link">Home</a>
+                <a href="#About" class="nav-link">About</a>
+                <a href="#Project" class="nav-link">Project</a>
+                <a href="#Service" class="nav-link">Service</a>
+                <a href="#Contact" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- 
+                Hamburger Icon for Mobile Navigation: This icon is used to toggle the navigation menu on mobile devices.
+            -->
+            <label for="check" class="humberger-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </header>
+    </div>
+    <!-- Hero Section: This section contains the hero content, including the introduction, title, and call-to-action button. -->
+    <div class="hero-section">
+        <!--
+    Hero Content Container: This container holds the hero content,
+    including the text and image.
+    -->
+        <div class="hero-content">
+            <!--
+    Hero Text Section: This section contains the hero text,
+    including the introduction, title, and description.
+    -->
+            <div class="content-left">
+                <!--
+    Hero Label: This is the introductory text for the hero section.
+    -->
+                <p class="hero-label">HI! I'm Manjeet Kumar</p>
+                <!--
+    Hero Title: This is the main title for the hero section.
+    -->
+                <p class="hero-title">FullStack Developer</p>
+                <!--
+    Hero Description: This is the descriptive text for the hero section.
+    -->
+                <p class="hero-description"> A tech enthusiast, coder, and problem-solver. As a BCA student and
+                    full-stack web developer, I'm driven to create impactful digital experiences that combine creativity
+                    and functionality."</p>
+                <!--
+    Call-to-Action Button: This button is used to prompt the user to take action,
+    such as downloading a resume or contacting you.
+    -->
+                <div class="resume-btn">
+                    <button>Dowload CV</button>
+                </div>
+            </div>
+            <!--
+    Hero Image Section: This section contains the hero image.
+    -->
+            <div class="content-right">
+                <img id="hero-image" src="./ef0c19df86ebd3fd36df90f8d664ead6.jpg" alt="hero-img">
+            </div>
+        </div>
+    </div>
+    <!-- Social Media Section: This section contains the social media links. -->
+    <div class="social-media">
+        <!--
+        Social Media Content Container: This container holds the social media links.
+        -->
+        <div class="social-media-content">
+            <!--
+        LinkedIn Link: This link connects to your LinkedIn profile.
+        -->
+            <a href="https://www.linkedin.com/in/manjeetkumar2002/">
+                <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
+            </a>
+            <!--
+        Twitter Link: This link connects to your Twitter profile.
+        -->
+            <a href="https://x.com/Manjeet02383889">
+                <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+            </a>
+            <!--
+        YouTube Link: This link connects to your YouTube channel.
+        -->
+            <a href="https://youtube.com/@art_by_manjeetkumar?si=7zn9M68OMmOmd4xh">
+                <div class="social-icon"><i class="fa-brands fa-youtube"></i></div>
+            </a>
+            <!--
+        Instagram Link: This link connects to your Instagram profile.
+        -->
+            <a href="https://www.instagram.com/m_illustrations__/">
+                <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+            </a>
+        </div>
+    </div>
+    <!-- About Section: This section contains information about Me. -->
+    <div class="about-container" id="About">
+        <!--
+        About Content Container: This container holds the about content.
+        -->
+        <div class="about-content">
+            <!--
+        About Section Container: This container holds the about section content.
+        -->
+            <div class="about-section">
+                <!--
+        About Image Section: This section contains the about image.
+        -->
+                <div class="content-left">
+                    <img class="about-img" src="./12603dc84d0317a094aa90530c73e070.jpg" alt="about-img">
+                </div>
+                <!--
+        About Text Section: This section contains the about text.
+        -->
+                <div class="content-right">
+                    <!--
+        About Title: This is the title for the about section.
+        -->
+                    <div class="about-title">
+                        <h3 class="title">About Me</h3>
+                    </div>
+                    <!--
+        About Description: This is the descriptive text for the about section.
+        -->
+                    <div class="about-description">
+                        <p class="description">"Meet Manjeet, a curious and driven full-stack web developer. With a
+                            passion for coding, I create user-friendly interfaces and efficient web applications,
+                            continuously learning and growing."</p>
+                    </div>
+                    <!--
+        Skills Section: This section contains your skills, including the skill name and percentage.
+        -->
+                    <div class="skills-section">
+                        <!--
+        Skill Item: This is a single skill item, including the skill name, percentage, and progress bar.
+        -->
+                        <div class="skills">
+                            <div class="skills-title">
+                                <h3 class="title">App Design</h3>
+                                <span class="bar-percent">80%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="circle circle1"></div>
+                                <div class="skills-bar-fill"></div>
+                            </div>
+                        </div>
+                        <!--
+        More Skill Items...
+        -->
+                        <div class="skills">
+                            <div class="skills-title">
+                                <h3 class="title">Web Design</h3>
+                                <span class="bar-percent">60%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="circle circle2"></div>
+                                <div class="skills-bar-fill skills-bar-fill2"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="skills-title">
+                                <h3 class="title">Graphics</h3>
+                                <span class="bar-percent">48%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="circle circle3"></div>
+                                <div class="skills-bar-fill skills-bar-fill3"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills">
+                            <div class="skills-title">
+                                <h3 class="title">Ux/Ui</h3>
+                                <span class="bar-percent">90%</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="circle circle4"></div>
+                                <div class="skills-bar-fill skills-bar-fill4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial Section: This section contains testimonials from clients or colleagues. -->
+    <div class="testimonial-section">
+        <!--
+        Testimonial Content Container: This container holds the testimonial content.
+        -->
+        <div class="testimonial-content">
+        <!--
+        Testimonial Title: This is the title for the testimonial section.
+        -->
+        <h2 class="testimonial-title"> What Others Say About Me</h2>
+        <!--
+        Testimonial Grid: This grid contains the testimonial cards.
+        -->
+        <div class="testimonial-grid">
+        <!--
+        Testimonial Card: This is a single testimonial card, including the testimonial text, avatar, and details.
+        -->
+        <div class="testimonial-card">
+        <!--
+        Testimonial Text: This is the testimonial text.
+        -->
+        <div class="testimonial-text">
+        "Manjeet is a true patriot in web development! Dedicated, detail-oriented, and excellent. A
+        top-notch developer who embodies integrity."
+        </div>
+        <!--
+        Testimonial Avatar: This is the avatar of the person who gave the testimonial.
+        -->
+        <div class="testimonial-avatar">
+        <img src="./caption america.jpg" alt="captain" />
+        </div>
+        <!--
+        Testimonial Details: This includes the name and description of the person who gave the testimonial.
+        -->
+        <div class="testimonial-detail">
+        <h3 class="testimonial-name">
+        Captain America
+        </h3>
+        <p class="testimonial-description">
+        Super Soldier & Avenger
+        </p>
+        </div>
+        </div>
+        <!--
+        More Testimonial Cards...
+        -->
+        <div class="testimonial-card">
+            <div class="testimonial-text">
+            "Manjeet is the real deal! Amazing web design and development skills. Listened to my needs and
+            delivered an awesome website. Highly recommended!"
+            </div>
+            <div class="testimonial-avatar">
+            <img src="./spiderman.jpg" alt="spiderman" />
+            </div>
+            <div class="testimonial-detail">
+            <h3 class="testimonial-name">
+            Spider Man
+            </h3>
+            <p class="testimonial-description">
+            Web-Slinging Superhero & Freelance Photographer
+            </p>
+            </div>
+            </div>
+            <!-- card 3 -->
+            <div class="testimonial-card">
+            <div class="testimonial-text">
+            "Manjeet is a force to be reckoned with. Razor-sharp skills, unyielding work ethic. Delivered a
+            website that's pure adamantium. Reliable and gets the job done!"
+            
+            </div>
+            <div class="testimonial-avatar">
+            <img src="./wolverine.jpg" alt="Wolverine" />
+            </div>
+            <div class="testimonial-detail">
+            <h3 class="testimonial-name">
+            Wolverine
+            </h3>
+            <p class="testimonial-description">
+            Mutant Superhero & X-Men Member
+            </p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Project Section: This section contains my projects, including images, titles, and descriptions. -->
+    <div class="project-section" id="Project">
+        <h2 class="project-title">My Recent works</h2>
+        <p class="project-description">"Recent Works | A showcase of my web design expertise, featuring selected
+            projects that demonstrate my skills."</p>
+        <div class="grid-container">
+            <div class="project-card box-shadow">
+                <div class="card-video">
+                    <video src="./project1.mp4" controls></video>
+                </div>
+                <div class="card-title">
+                    <h3 class="title">Indian Sweets</h3>
+                </div>
+                <div class="card-desc">
+                    <p class="desc">E-commerce website showcasing traditional Indian sweets with secure payment gateway
+                        integration.
+                    </p>
+                </div>
+
+            </div>
+            <div class="project-card box-shadow">
+                <div class="card-video">
+                    <video src="./project2.mp4" controls></video>
+                </div>
+                <div class="card-title">
+                    <h3 class="title">Portfolio:Maya Nelson</h3>
+                </div>
+                <div class="card-desc">
+                    <p class="desc">Custom portfolio website designed and developed for a client to showcase their work.
+                    </p>
+                </div>
+
+            </div>
+            <div class="project-card box-shadow">
+                <div class="card-video">
+                    <video src="./project3.mp4" controls></video>
+                </div>
+                <div class="card-title">
+                    <h3 class="title">Beauty Treatment</h3>
+                </div>
+                <div class="card-desc">
+                    <p class="desc">Salon and spa services website with booking system and secure payment gateway.
+                    </p>
+                </div>
+
+            </div>
+            <div class="project-card box-shadow">
+                <div class="card-video">
+                    <video src="./project4.mp4" controls></video>
+                </div>
+                <div class="card-title">
+                    <h3 class="title">Danielle Jones</h3>
+                </div>
+                <div class="card-desc">
+                    <p class="desc">Yoga studio website with class scheduling, membership management, and e-commerce
+                        integration.</p>
+                </div>
+
+            </div>
+            <div class="project-card box-shadow">
+                <div class="card-video">
+                    <video src="./project5.mp4" controls></video>
+                </div>
+                <div class="card-title">
+                    <h3 class="title">Study Sync</h3>
+                </div>
+                <div class="card-desc">
+                    <p class="desc">Seamless learning platform for students to access study materials and resources.</p>
+                </div>
+
+            </div>
+            <div class="project-card box-shadow">
+                <div class="card-video">
+                    <video src="./project6.mp4" controls></video>
+                </div>
+                <div class="card-title">
+                    <h3 class="title">Food Restraunt</h3>
+                </div>
+                <div class="card-desc">
+                    <p class="desc">Restaurant website with online ordering, menu management, and reservation systems
+                        integration.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Services Section: This section contains the services you offer, including UI/UX, graphics, web design, and development. -->
+    <div class="services-section" id="Service">
+        <!-- Services Content Start: This container holds the services heading, description, and cards -->
+        <div class="services-content">
+          <!-- Services Heading Start: Displays the main heading for the services section -->
+          <div class="services-heading">
+            My Services
+          </div>
+          <!-- Services Heading End -->
+          
+          <!-- Services Description Start: Provides a brief overview of the services offered -->
+          <div class="services-content-description">
+            Expert full-stack web developer offering comprehensive services, from design to development, to bring your vision to life.
+          </div>
+          <!-- Services Description End -->
+          
+          <!-- Services Card Grid Start: A grid container for the services cards -->
+          <div class="card-grid">
+            <!-- UI/UX Service Card Start: Represents the UI/UX service offered -->
+            <div class="services-card">
+              <div class="card-img">
+                <!-- Icon for UI/UX service -->
+                <i class="fa-solid fa-window-restore"></i>
+              </div>
+              <h2 class="services-title">UI/UX</h2>
+              <!-- Brief description of the UI/UX service -->
+              <p class="services-description">Crafting intuitive interfaces and user experiences with responsive design, wireframing, and user research.</p>
+            </div>
+            <!-- UI/UX Service Card End -->
+            
+            <!-- Graphics Service Card Start: Represents the Graphics service offered -->
+            <div class="services-card">
+              <div class="card-img">
+                <!-- Icon for Graphics service -->
+                <i class="fa-solid fa-cube"></i>
+              </div>
+              <h2 class="services-title">GRAPHICS</h2>
+              <!-- Brief description of the Graphics service -->
+              <p class="services-description">Creating visually stunning graphics, logos, infographics, and digital materials for brand elevation.</p>
+            </div>
+            <!-- Graphics Service Card End -->
+            
+            <!-- Web Design Service Card Start: Represents the Web Design service offered -->
+            <div class="services-card">
+              <div class="card-img">
+                <!-- Icon for Web Design service -->
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+              <h2 class="services-title">WEB DESIGN</h2>
+              <!-- Brief description of the Web Design service -->
+              <p class="services-description">Optimizing data-driven solutions with database design, query tuning, and data visualization.</p>
+            </div>
+            <!-- Web Design Service Card End -->
+            
+            <!-- Development Service Card Start: Represents the Development service offered -->
+            <div class="services-card">
+              <div class="card-img">
+                <!-- Icon for Development service -->
+                <i class="fa-solid fa-file-code"></i>
+              </div>
+              <h2 class="services-title">DEVELOPMENT</h2>
+              <!-- Brief description of the Development service -->
+              <p class="services-description">Building fast, secure web applications with front-end, back-end, and CMS expertise.</p>
+            </div>
+            <!-- Development Service Card End -->
+            
+            <!-- Creative SQL Service Card Start: Represents the Creative SQL service offered -->
+            <div class="services-card">
+              <div class="card-img">
+                <!-- Icon for Creative SQL service -->
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h2 class="services-title">CREATIVE SQL</h2>
+              <!-- Brief description of the Creative SQL service -->
+              <p class="services-description">Optimizing data-driven solutions with database design, query tuning, and data visualization.</p>
+            </div>
+            <!-- Creative SQL Service Card End -->
+            
+            <!-- App Design Service Card Start: Represents the App Design service offered -->
+            <div class="services-card">
+              <div class="card-img">
+                <!-- Icon for App Design service -->
+                <i class="fa-brands fa-android"></i>
+              </div>
+              <h2 class="services-title">APP DESIGN</h2>
+              <!-- Brief description of the App Design service -->
+              <p class="services-description">Developing seamless Android apps with native and cross-platform expertise.</p>
+            </div>
+            <!-- App Design Service Card End -->
+          </div>
+          <!-- Services Card Grid End -->
+        </div>
+        <!-- Services Content End -->
+    </div>
+    <!-- Contact Section: This section contains your contact information, including email, phone number, and address. -->
+    <div class="footer" id="Contact">
+        <footer class="footer-section">
+        <!--
+        Contact Form Section: This section contains the contact form.
+        -->
+        <div class="footer-contact">
+        <!--
+        Contact Form Container: This container holds the contact form.
+        -->
+        <div class="contact-form">
+        <!--
+        Form Heading: This is the heading for the contact form.
+        -->
+        <div class="form-heading">
+        <h2>Get In Touch</h2>
+        </div>
+        <!--
+        Contact Form: This is the contact form, including input fields and a submit button.
+        -->
+        <form action="" class="form">
+        <!--
+        Input Fields Container: This container holds the input fields.
+        -->
+        <div class="column">
+        <!--
+        Name Input Field: This is the input field for the user's name.
+        -->
+        <div class="input-box">
+        <input required type="text" id="name" name="name" placeholder="Name">
+        </div>
+        <!--
+        Email Input Field: This is the input field for the user's email.
+        -->
+        <div class="input-box">
+        <input required type="email" id="email" name="email" placeholder="Email">
+        </div>
+        </div>
+        <!--
+        Subject Input Field: This is the input field for the message subject.
+        -->
+        <div class="input-box">
+        <input required type="text" id="subject" name="subject" placeholder="Subject">
+        </div>
+        <!--
+        Message Input Field: This is the input field for the message.
+        -->
+        <div class="input-box">
+        <textarea required name="message" id="msg" placeholder="Message"></textarea>
+        </div>
+        <!--
+        Submit Button: This is the submit button for the contact form.
+        -->
+        <div class="btn-box">
+        <button>Send Message</button>
+        </div>
+        </form>
+        </div>
+        <!--
+        Footer Information Section: This section contains additional information,
+        such as address, phone number, or social media links.
+        -->
+        <div class="footer-information">
+        </div>
+        </div>
+        <!--
+        Copyright Information Section: This section contains the copyright information.
+        -->
+        <div class="footer-copyright-section">
+        <p>&copy; 2024 <span>Manjeet Kumar</span>. All rights reserved</p>
+        <!--
+        Back-to-Top Button: This button links back to the top of the page.
+        -->
+        <a href="#html">
+        <div class="arrow-up box-shadow"><i class="fa-solid fa-angle-up"></i></div>
+        </a>
+        </div>
+        </footer>
+    </div>
+</body>
+
+</html>
